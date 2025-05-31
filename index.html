@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo" data-lang="portfolio">Portfolio</div>
+        <div class="nav-links">
+            <a href="#home" data-lang="home">Home</a>
+            <a href="#about" data-lang="about">About</a>
+            <a href="#skills" data-lang="skills">Skills</a>
+            <a href="#projects" data-lang="projects">Projects</a>
+            <a href="#contact" data-lang="contact">Contact</a>
+        </div>
+        <div class="nav-controls">
+            <button class="lang-toggle">
+                <span class="current-lang">EN</span>
+                <i class="fas fa-globe"></i>
+            </button>
+            <button class="theme-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="typing-text" data-lang="greeting">Hi, I'm <span class="highlight">Yanlin Rein Yu</span></h1>
+            <p class="subtitle" data-lang="role">Full Stack Developer</p>
+            <div class="cta-buttons">
+                <a href="#projects" class="btn primary" data-lang="view-work">View My Work</a>
+                <a href="#contact" class="btn secondary" data-lang="contact-me">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2 data-lang="about-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p data-lang="about-description">I'm currently a graduate student at University of Tsukuba, with a deep passion for programming and technology. I love turning ideas into reality through code, constantly learning and exploring new technologies. With a multicultural background, I can communicate fluently in English, Japanese, and Chinese, which allows me to collaborate effectively in diverse environments.</p>
+                <div class="language-skills">
+                    <h3 data-lang="languages-title">Languages</h3>
+                    <div class="language-list">
+                        <div class="language-item">
+                            <span class="language-name">English</span>
+                            <span class="language-level" data-lang="lang-fluent">Business Level</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">日本語</span>
+                            <span class="language-level" data-lang="lang-fluent">Business Level</span>
+                        </div>
+                        <div class="language-item">
+                            <span class="language-name">中文</span>
+                            <span class="language-level" data-lang="lang-native">Native</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2 data-lang="skills-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <div class="gas-icon">
+                    <i class="fab fa-google"></i>
+                    <span class="gas-script">{ }</span>
+                </div>
+                <h3>Google Apps Script</h3>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2 data-lang="projects-title">My Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://via.placeholder.com/350x200" alt="Project 1">
+                </div>
+                <div class="project-info">
+                    <h3 data-lang="project-one-title">Project One</h3>
+                    <p data-lang="project-one-description">A beautiful web application built with modern technologies.</p>
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="btn" data-lang="live-demo">Live Demo</a>
+                        <a href="#" class="btn" data-lang="source-code">Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2 data-lang="contact-title">Get In Touch</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>reinyu813@gmail.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+81 80-9827-4774</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p data-lang="location">Tsukuba, Ibaraki, Japan</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/goldf13h/"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/yanlinreinyu/"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" required>
+                    <label for="name" data-lang="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" required></textarea>
+                    <label for="message" data-lang="message">Message</label>
+                </div>
+                <button type="submit" class="btn primary" data-lang="send-message" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p data-lang="copyright">&copy; 2024 Yanlin Rachel Yu. All rights reserved.</p>
+    </footer>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom Scripts -->
+    <script src="script.js"></script>
+</body>
+</html> 
