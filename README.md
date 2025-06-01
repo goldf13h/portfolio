@@ -11,7 +11,6 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Fea
 - Interactive project showcase
 - Contact form
 - CSS animations and transitions
-- Mobile-friendly navigation
 
 ## Technologies Used
 
