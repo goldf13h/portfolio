@@ -170,8 +170,7 @@ contactForm.addEventListener('submit', async (e) => {
     submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
     
     try {
-        // Here you would typically send the form data to a server
-        // For now, we'll simulate a delay
+        // Sending message, now it's a simulation only
         await new Promise(resolve => setTimeout(resolve, 1000));
         
         // Show success message
@@ -269,7 +268,7 @@ const translations = {
         'projects': 'Projects',
         'contact': 'Contact',
         'greeting': 'Hi, I\'m <span class="highlight">Yanlin Rein Yu</span>',
-        'role': 'Full Stack Developer',
+        'role': 'Developer & Data Analyst',
         'view-work': 'View My Work',
         'contact-me': 'Contact Me',
         'about-title': 'About Me',
@@ -301,7 +300,7 @@ const translations = {
         'projects': 'プロジェクト',
         'contact': 'お問い合わせ',
         'greeting': 'こんにちは、<span class="highlight">Yanlin Rein Yu</span>です',
-        'role': 'フルスタック開発者',
+        'role': 'Web開発＆データ分析',
         'view-work': '作品を見る',
         'contact-me': 'お問い合わせ',
         'about-title': '私について',
