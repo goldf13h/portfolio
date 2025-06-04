@@ -10,9 +10,7 @@ A modern, responsive portfolio website built with HTML, CSS, and JavaScript. Fea
 - Smooth scroll animations
 - Interactive project showcase
 - Contact form
-- Modern typography with Google Fonts (Poppins & Inter)
 - CSS animations and transitions
-- Mobile-friendly navigation
 
 ## Technologies Used
 
